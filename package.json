@@ -4,9 +4,9 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build",
-    "preview": "vite preview"
+    "dev": "bun x --bun vite",
+    "build": "bun x --bun vite build",
+    "preview": "bun x --bun vite preview"
   },
   "devDependencies": {
     "typescript": "^5.2.2",
