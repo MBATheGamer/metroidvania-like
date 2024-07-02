@@ -10,7 +10,7 @@ export const k = kaboom({
   global: false,
 });
 
-k.loadFont("glyphmesss", "./assets/glyphmesss.tff");
+k.loadFont("glyphmesss", "./assets/glyphmesss.ttf");
 
 k.loadSprite("player", "./assets/sprites/u.png", {
   sliceX: 8,
@@ -22,5 +22,15 @@ k.loadSprite("player", "./assets/sprites/u.png", {
     fall: { from: 54, to: 54, loop: true },
     explode: { from: 64, to: 69 },
     attack: { from: 24, to: 28, speed: 16 },
+  },
+});
+
+k.loadSprite("drone", "./assets/sprites/dr0ne.png", {
+  sliceX: 6,
+  sliceY: 3,
+  anims: {
+    flying: { from: 0, to: 3, loop: true },
+    attack: { from: 6, to: 11, loop: true },
+    explode: { from: 12, to: 17 },
   },
 });
