@@ -47,3 +47,13 @@ k.loadSprite("burner", "./assets/sprites/burn3r.png", {
     explode: { from: 25, to: 29 },
   },
 });
+
+k.loadSpriteAtlas("./assets/ui.png", {
+  "health-bar": {
+    x: 16,
+    y: 26,
+    width: 60,
+    height: 48,
+    sliceY: 3,
+  },
+});
