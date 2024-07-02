@@ -9,3 +9,5 @@ export const k = kaboom({
   letterbox: true,
   global: false,
 });
+
+k.loadFont("glyphmesss", "./assets/glyphmesss.tff");
