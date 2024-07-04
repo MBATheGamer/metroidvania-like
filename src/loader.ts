@@ -88,3 +88,5 @@ k.loadSound("boom", "./assets/sounds/boom.wav");
 k.loadSound("health", "./assets/sounds/health.wav");
 
 k.loadSound("flamethrower", "./assets/sounds/flamethrower.wav");
+
+k.loadSprite("room1", "./maps/room1.png");
