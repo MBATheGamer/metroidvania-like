@@ -1,4 +1,5 @@
-import { KaboomCtx } from "kaboom";
+import { GameObj, KaboomCtx } from "kaboom";
+import { TiledObject } from "tiled-types";
 
 export const setBackgroundColor = (
   kaboom: KaboomCtx,
@@ -10,3 +11,9 @@ export const setBackgroundColor = (
     kaboom.fixed(),
   ]);
 };
+
+export const setMapColliders = (
+  kaboom: KaboomCtx,
+  map: GameObj,
+  colliders: TiledObject[]
+) => {};
