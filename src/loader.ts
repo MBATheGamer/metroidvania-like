@@ -91,6 +91,6 @@ k.loadSound("flamethrower", "./assets/sounds/flamethrower.wav");
 
 k.loadSprite("room1", "./maps/room1.png");
 
-k.loadSprite("room1", "./maps/room2.png");
+k.loadSprite("room2", "./maps/room2.png");
 
 export default k;
