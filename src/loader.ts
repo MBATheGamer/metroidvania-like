@@ -90,3 +90,5 @@ k.loadSound("health", "./assets/sounds/health.wav");
 k.loadSound("flamethrower", "./assets/sounds/flamethrower.wav");
 
 k.loadSprite("room1", "./maps/room1.png");
+
+k.loadSprite("room1", "./maps/room2.png");
