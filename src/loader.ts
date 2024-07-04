@@ -80,3 +80,5 @@ k.loadSprite("background", "./assets/background.png", {
   sliceX: 13,
   sliceY: 25,
 });
+
+k.loadSound("notify", "./assets/sound/notify.mp3");
