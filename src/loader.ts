@@ -2,7 +2,7 @@ import kaboom from "kaboom";
 
 export const SCALE = 2;
 
-export const k = kaboom({
+const k = kaboom({
   width: 640 * SCALE,
   height: 360 * SCALE,
   scale: SCALE,
@@ -92,3 +92,5 @@ k.loadSound("flamethrower", "./assets/sounds/flamethrower.wav");
 k.loadSprite("room1", "./maps/room1.png");
 
 k.loadSprite("room1", "./maps/room2.png");
+
+export default k;
