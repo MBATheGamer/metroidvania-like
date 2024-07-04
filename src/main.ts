@@ -6,3 +6,5 @@ kaboom.scene("room1", room1);
 kaboom.scene("room2", room2);
 
 kaboom.scene("intro", () => {});
+
+kaboom.go("intro");
