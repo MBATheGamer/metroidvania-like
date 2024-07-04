@@ -70,3 +70,8 @@ k.loadSpriteAtlas("./assets/animations.png", {
     },
   },
 });
+
+k.loadSprite("tileset", "./assets/tileset.png", {
+  sliceX: 33,
+  sliceY: 21,
+});
